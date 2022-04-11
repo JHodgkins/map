@@ -51,4 +51,5 @@ const students = [
 ];
 
 const studentsWithIds = students.map(student => [student.id, student.name, student.profession]);
+
 console.log(studentsWithIds);
